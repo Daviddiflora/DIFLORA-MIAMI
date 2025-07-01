@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Diflora Real Estate - Miami</title>
   <style>
     body {
@@ -9,50 +10,67 @@
       font-family: Arial, sans-serif;
       background-color: #000;
       color: #fff;
+    }
+
+    header {
+      background-color: #111;
+      padding: 20px;
       text-align: center;
-      padding: 40px 20px;
     }
 
-    img.logo {
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    .logo {
       max-width: 200px;
-      margin: 20px auto;
-      display: block;
-    }
-
-    .content {
-      max-width: 800px;
-      margin: auto;
-    }
-
-    h1 {
-      font-size: 32px;
       margin-bottom: 10px;
     }
 
-    p {
-      font-size: 18px;
-      line-height: 1.6;
+    .section {
+      padding: 50px 20px;
+      max-width: 800px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .contact {
+      margin-top: 20px;
+      font-size: 16px;
     }
   </style>
 </head>
 <body>
 
-  <img src="logo.png" alt="Diflora Real Estate Logo" class="logo">
+  <header>
+    <img src="logo.png" alt="Diflora Logo" class="logo" />
+    <h1>Diflora Real Estate - Miami</h1>
+    
+    <div class="contact">
+      David Frenkel, CEO<br>
+      Mobile (USA): +1-754-295-5202<br>
+      Email: difloraoffice@gmail.com
+    </div>
 
-  <div class="content">
-    <h1>DIFLORA REAL ESTATE</h1>
-    <p><strong>David Frenkel<br>
-    CEO, Diflora Real Estate<br>
-    Mobile (USA): +1-754-295-5202<br>
-    Email: difloraoffice@gmail.com</strong></p>
+    <nav>
+      <a href="#about">About</a>
+    </nav>
+  </header>
 
-    <p>With the launch of our new branch in Miami,<br>
-    we have expanded our operations into the U.S. real estate market.<br>
-    While maintaining the same values of professionalism, integrity, and uncompromising service,<br>
-    we specialize in sales, rentals, management, and handling complex real estate transactions.<br>
-    We leverage the many opportunities of Miami’s thriving real estate market,<br>
-    and our strategic location in the heart of the action allows us to identify the hottest opportunities<br>
-    and deliver our clients the most precise, tailored service available.</p>
+  <div id="about" class="section">
+    <h2>About Diflora Real Estate</h2>
+    <p>
+      With the launch of our new branch in Miami, we have expanded into the U.S. real estate market while preserving our core values of professionalism, integrity, and top-tier service.
+      <br><br>
+      We specialize in sales, rentals, management, and executing complex real estate transactions—leveraging the many opportunities of Miami’s thriving real estate scene. Our strategic location in the heart of the real estate action enables us to identify the hottest opportunities and deliver the most personalized and precise service to our clients.
+    </p>
   </div>
 
 </body>
