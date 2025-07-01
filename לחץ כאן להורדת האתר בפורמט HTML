@@ -76,3 +76,6 @@
 
 </body>
 </html>
+<footer style="text-align: center; font-size: 14px; color: gray; padding: 20px;">
+  Use <strong>Control + Shift + M</strong> to toggle the tab key moving focus. Alternatively, use <strong>Esc</strong> then <strong>Tab</strong> to move to the next interactive element on the page.
+</footer>
